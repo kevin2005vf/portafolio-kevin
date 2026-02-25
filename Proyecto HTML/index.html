@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kevin Hernandez | Developer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">KH</div>
+        <ul class="menu">
+            <li><a href="#sobre">Sobre mí</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#porque">¿Por qué yo?</a></li>
+            <li><a href="#contacto" class="contact-btn">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+        <h1>Kevin Hernandez</h1>
+        <p>Ingeniero en Sistemas Computacionales</p>
+        <a href="#proyectos" class="btn-primary">Explorar proyectos</a>
+    </div>
+</section>
+
+<section id="sobre" class="sobre">
+    <div class="sobre-box">
+        <img src="img/kevin.png" alt="">
+        <div>
+            <h1>Sobre mí</h1>
+            <p>
+                Soy estudiante de Ingeniería en Sistemas Computacionales.
+                Trabajo con Phoenix Pro, HTML, CSS, JavaScript y bases de datos.
+                Me enfoco en crear soluciones visuales modernas y funcionales, Puedo trabajar en cualquier area,soy multifuncional y resuelvo problemas de empresas grandes,soy un perfil para cualquier tipo de trabajo y un gran comodin.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="servicios" class="servicios">
+    <h1>Servicios</h1>
+    <div class="servicios-grid">
+        <div class="glass-card">
+            <h3>Desarrollo Web</h3>
+            <p>Diseño moderno y responsive.</p>
+        </div>
+        <div class="glass-card">
+            <h3>Diseño UI/UX</h3>
+            <p>Interfaces limpias y profesionales.</p>
+        </div>
+        <div class="glass-card">
+            <h3>Bases de Datos</h3>
+            <p>Modelado y gestión eficiente.</p>
+        </div>
+         <div class="glass-card">
+            <h3>Paginas web</h3>
+            <p>Desarrollo en paginas web.</p>
+        </div>
+         <div class="glass-card">
+            <h3>Contenido Digital</h3>
+            <p>Acesoramiento en tus redes sociales.</p>
+        </div>
+         <div class="glass-card">
+            <h3>Desarrollador de software</h3>
+            <p>Mantenimiento y creacion de software.</p>
+        </div>
+    </div>
+</section>
+
+<section id="proyectos" class="proyectos">
+    <h1>Proyectos</h1>
+
+    <div class="carrusel-container">
+
+    <button class="flecha izquierda" onclick="anterior()">‹</button>
+
+   <div class="carrusel">
+
+    <button class="flecha izquierda" onclick="anterior()">‹</button>
+
+    <img src="img/aseweb.png" class="activo">
+    <img src="img/codigo.png">
+    <img src="img/base.png">
+
+    <button class="flecha derecha" onclick="siguiente()">›</button>
+
+</div>
+
+    <div class="dots">
+        <span onclick="mostrar(0)"></span>
+        <span onclick="mostrar(1)"></span>
+        <span onclick="mostrar(2)"></span>
+    </div>
+
+
+<section id="porque" class="porque">
+    <div class="porque-box">
+        <h1>¿Por qué trabajar conmigo?</h1>
+        <ul>
+            <li>✔ Compromiso profesional</li>
+            <li>✔ Diseño atractivo y funcional</li>
+            <li>✔ Atención al detalle</li>
+            <li>✔ Comunicación clara</li>
+            <li>✔ Soy un comodin</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contacto" class="contacto">
+    <h1>Contacto</h1>
+    <p>Email: kevin2005vf@gmail.com</p>
+    <p>Instagram: kevincech10</p>
+    <p>GitHub: <a href="https://github.com/kevin2005vf" target="_blank">github.com/kevin2005vf</a></p>
+</section>
+
+<footer>
+    <p>© 2026 Kevin Hernandez</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
